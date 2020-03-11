@@ -1,6 +1,6 @@
 #mapid {
     height: 800px;
-    width: 60%;
+    width: 100%;
     display: inline-block;
 }
 
@@ -13,16 +13,58 @@
     line-height: 42px;
 }
 
+.sequence-control-container {
+    width: 350px;
+    height: 30px;
+    background-color: rgba(30,30,30,0.9);
+    padding: 10px;
+    line-height: 45px;
+    text-align: center;
+    border: solid gray 1px;
+}
+
+.legend-control-container {
+    width: 300px;
+    height: 200px;
+    background-color: rgba(30,30,30,0.9);
+	color: #70ad4c;
+    padding: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: solid gray 1px;
+}
+
+.des-control-container {
+  width: 400px;
+  background-color: rgba(30,30,30,0.9);
+  color: #70ad4c;
+  padding: 5px;
+  line-height: 20px;
+  border: solid gray 1px;
+}
+
+.title-control-container {
+  font-size: 26px;
+  color: white;
+  text-shadow: 1px 1px 2px #3b5b28, 0 0 10px #70ad4c, 0 0 2px #3b5b28;
+  padding: 10px;
+}
+
+.data-source {
+  color: white;
+}
+
 .range-slider {
-    width: 55%;
+    width: 250px;
 }
 
 .step {
-	width: 20%;
+    width: 40px;
 }
 
 .step img {
-	width: 100%;
+   width: 100%;
+   height: auto;
 }
 
 
